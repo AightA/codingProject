@@ -1,0 +1,40 @@
+.display-container {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.data-table {
+    width: 75%;
+    border: 1px blueviolet solid;
+    padding: 8px;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.data-table th,
+.data-table td {
+    padding: 15px 20px;
+    border: 1px solid #6BAA75;
+    text-align: left;
+}
+
+.data-table th {
+    background-color: #D8D1CE;
+    font-weight: bold;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #E8E7E9;
+}
+
+.data-table tr:hover {
+    background-color: #C9A3A5;
+}
+
+.submit {
+    margin-left: 5px;
+}
